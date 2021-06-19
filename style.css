@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #deface;
+}
+.main {
+    background: #fefeef;
+    width: 800px;
+    height: 400px;
+    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+#main-photo {
+    position: absolute;
+    top: 50%;
+    transform: translate(20px, -50%);
+    border: 2px solid #decade;
+    width: 300px;
+    height: 300px;
+}
+#party-emoji {
+    position: absolute;
+    left: 75%;
+    top: 40%;
+    transform: translate(calc(-75% - 20px));
+    width: 40px;
+    height: 40px;
+}
+#title-text {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+}
+hr {
+    width: 150px;
+    position: absolute;
+    left: 75%;
+    transform: translate(-75%);
+    top: 25%;
+}
